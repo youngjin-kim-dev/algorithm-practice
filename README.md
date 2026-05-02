@@ -3,22 +3,22 @@
 알고리즘 / SQL 문제 풀이를 누적하는 공간입니다.
 
 ## 구조
-\'\'\'
 algorithm-practice/
+├── README.md
 ├── programmers/
-│   ├── sql/        # 프로그래머스 SQL 문제
-│   │   ├── lv1/
-│   │   ├── lv2/
-│   │   ├── lv3/
-│   │   ├── lv4/
-│   │   └── lv5/
-│   └── python/     # 프로그래머스 Python 문제
+│   ├── sql/
+│   │   ├── select/
+│   │   ├── sum-max-min/
+│   │   ├── group-by/
+│   │   ├── is-null/
+│   │   ├── join/
+│   │   └── string-date/
+│   └── python/
 │       ├── lv1/
 │       └── lv2/
-└── leetcode/       # LeetCode 문제
+└── leetcode/
     ├── easy/
     └── medium/
-\`\`\`
 
 ## 풀이 방식
 각 문제마다 두 개의 파일로 정리합니다.
@@ -28,12 +28,19 @@ algorithm-practice/
 파일명 규칙 : '문제번호_문제이름.확장자'
 
 ## 진행 상황
-- [] 프로그래머스 SQL Lv1 (0/25)
-- [] 프로그래머스 SQL Lv2 (0/40)
-- [ ] 프로그래머스 SQL Lv3 (0/30)
-- [ ] 프로그래머스 SQL Lv4 (0/15)
-- [ ] 프로그래머스 SQL Lv5 (0/3)
-- [ ] 프로그래머스 Python Lv1 (0/77)
+
+### 프로그래머스 SQL 고득점 Kit
+- [ ] SELECT (4/33) ← 진행 중
+- [ ] SUM, MAX, MIN (0/10)
+- [ ] GROUP BY (0/24)
+- [ ] IS NULL (0/8)
+- [ ] JOIN (0/12)
+- [ ] String, Date (0/19)
+
+### 프로그래머스 Python
+- [ ] Lv0 (5/240) ← 진행 중
+- [ ] Lv1 (0/88)  
+- [ ] Lv2 (0/117)
 
 ## 사용 환경
 - Python 3.11
