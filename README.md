@@ -7,13 +7,14 @@ algorithm-practice/
 ├── README.md
 ├── programmers/
 │   ├── sql/
-│   │   ├── select/
-│   │   ├── sum-max-min/
-│   │   ├── group-by/
-│   │   ├── is-null/
-│   │   ├── join/
-│   │   └── string-date/
+│   │   ├── 01_select/
+│   │   ├── 02_sum-max-min/
+│   │   ├── 03_group-by/
+│   │   ├── 04_is-null/
+│   │   ├── 05_join/
+│   │   └── 06_string-date/
 │   └── python/
+        ├── lv0/
 │       ├── lv1/
 │       └── lv2/
 └── leetcode/
@@ -30,7 +31,7 @@ algorithm-practice/
 ## 진행 상황
 
 ### 프로그래머스 SQL 고득점 Kit
-- [ ] SELECT (4/33) ← 진행 중
+- [ ] SELECT (8/33) ← 진행 중
 - [ ] SUM, MAX, MIN (0/10)
 - [ ] GROUP BY (0/24)
 - [ ] IS NULL (0/8)
@@ -38,7 +39,7 @@ algorithm-practice/
 - [ ] String, Date (0/19)
 
 ### 프로그래머스 Python
-- [ ] Lv0 (5/240) ← 진행 중
+- [ ] Lv0 (11/240) ← 진행 중
 - [ ] Lv1 (0/88)  
 - [ ] Lv2 (0/117)
 
