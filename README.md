@@ -31,7 +31,7 @@ algorithm-practice/
 ## 진행 상황
 
 ### 프로그래머스 SQL 고득점 Kit
-- [ ] SELECT (10/33) ← 진행 중
+- [ ] SELECT (13/33) ← 진행 중
 - [ ] SUM, MAX, MIN (0/10)
 - [ ] GROUP BY (0/24)
 - [ ] IS NULL (0/8)
