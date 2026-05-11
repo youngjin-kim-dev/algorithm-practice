@@ -1,0 +1,9 @@
+-- 문제: 업그레이드 된 아이템 구하기
+-- 링크: https://school.programmers.co.kr/learn/courses/30/lessons/273711
+
+SELECT C.ITEM_ID, C.ITEM_NAME, C.RARITY
+FROM ITEM_INFO A
+JOIN ITEM_TREE B ON A.ITEM_ID = B.PARENT_ITEM_ID
+JOIN ITEM_INFO C ON B.ITEM_ID = C.ITEM_ID
+WHERE A.RARITY = 'RARE'
+ORDER BY C.ITEM_ID DESC;
